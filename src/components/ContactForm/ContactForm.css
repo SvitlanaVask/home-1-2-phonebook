@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.form-label {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.form-button {
+  height: 25px;
+  background-color: #9e9e9e;
+  border: #9e9e9e;
+  cursor: pointer;
+}
+
+.form-button:hover {
+  background-color: #8d8d8d;
+  border: #8d8d8d;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
